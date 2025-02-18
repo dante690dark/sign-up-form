@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 @font-face {
@@ -12,7 +11,7 @@
 }
 
 body {
-  font-family: 'NorseBold', sans-serif;
+	background-color: #F9FAFB;
 }
 
 .container {
@@ -21,41 +20,44 @@ body {
 
 .container-image {
 	height: 100vh;
-	flex: 2;
+	flex: 1.2;
 	background-image: url('./assets/imageS/halie-west-25xggax4bSA-unsplash.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.container-form {
+.container-account {
 	height: 100vh;
 	flex: 3;
 }
 
-section {
+.logo {
 	height: 200px;
 	width: 100%;
 	background-color:  rgba(0, 0, 0, 0.5);
 	position: relative;
-	top: 300px;
+	top: 22%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap:3px;
 }
 
-
-section img {
+.logo img {
 	width: auto;
 	height: 80%;
 }	
 
-
-section h3{
+.logo h3 {
 	color: white;
 	font-size: 30px;
 	font-family: NorseBold;
 	font-size: 100px;
 	margin-top: 5px;
+}
+
+p {
+	color: #333;
+	font-size: 30px;
 }
