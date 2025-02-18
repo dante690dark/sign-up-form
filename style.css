@@ -20,17 +20,12 @@ body {
 
 .container-image {
 	height: 100vh;
+	max-width: 40%;
 	flex: 1.2;
 	background-image: url('./assets/imageS/halie-west-25xggax4bSA-unsplash.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-}
-
-.container-account {
-	height: 100vh;
-	flex: 3;
-	margin: 110px 245px 0 60px;
 }
 
 .logo {
@@ -58,11 +53,21 @@ body {
 	margin-top: 5px;
 }
 
-.container-account h3 {
-	color: #333;
-	font-size: 30px;
+.container-account {
+	height: 100vh;
+	max-width: 1200px;
+	flex: 3;
 }
 
-.container-account h3:last-of-type{
-  margin-top: 45px;
+.container-account .margins {
+  margin: 15vh 15vw 0 5vw; /* Usa valores en vw en vez de píxeles fijos */
+}
+
+.container-account h3 {
+	color: #333;
+	font-size: 25px;
+}
+
+.container-account .margins h3:last-of-type{
+	margin-top: 40px;
 }
