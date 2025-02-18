@@ -30,6 +30,7 @@ body {
 .container-account {
 	height: 100vh;
 	flex: 3;
+	margin: 110px 245px 0 60px;
 }
 
 .logo {
@@ -57,7 +58,11 @@ body {
 	margin-top: 5px;
 }
 
-p {
+.container-account h3 {
 	color: #333;
 	font-size: 30px;
+}
+
+.container-account h3:last-of-type{
+  margin-top: 45px;
 }
