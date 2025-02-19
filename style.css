@@ -10,8 +10,9 @@
   font-style: normal;
 }
 
-body {
+html, body {
 	background-color: #F9FAFB;
+  overflow-x: hidden;
 }
 
 .container {
@@ -29,11 +30,11 @@ body {
 }
 
 .logo {
+	position: relative;
+	top: 22%;
 	height: 200px;
 	width: 100%;
 	background-color:  rgba(0, 0, 0, 0.5);
-	position: relative;
-	top: 22%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -55,12 +56,12 @@ body {
 
 .container-account {
 	height: 100vh;
-	max-width: 1200px;
+	max-width: 60vw;
 	flex: 3;
 }
 
 .container-account .margins {
-  margin: 15vh 15vw 0 5vw; /* Usa valores en vw en vez de píxeles fijos */
+  margin: 15% 10% 0 3%;
 }
 
 .container-account h3 {
@@ -70,4 +71,72 @@ body {
 
 .container-account .margins h3:last-of-type{
 	margin-top: 40px;
+}
+
+.card-form {
+	position: relative;
+	top: 10%;
+  background-color: white;
+  height: 220px;
+  width: 100vw;
+	border-radius: 4px; 
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.card-form form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+label{
+	font-size: 10px;
+}
+
+.title{
+	font-size: 20px;	
+}
+
+.margin-form{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.card-form form .content-form {
+	display: flex;
+	gap: 40px;
+	padding: 20px;
+	padding-left: 30px;
+}
+
+.content-input-group{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+}
+
+
+input{
+	width: 200px;
+	height: 15px;
+	border: 1px solid #F0F1F3;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+input:user-valid {
+  border: 2px solid #28a745;
+  background-color: rgba(40, 167, 69, 0.1);
+}
+
+input:user-invalid {
+  border: 2px solid red;
+  background-color: rgba(255, 0, 0, 0.1);
 }

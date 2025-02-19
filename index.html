@@ -18,12 +18,58 @@
     
     <div class="container-account">
       <div class="margins">
-        <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</h3>
+        <h3>This is not a real online service! You know you need something <br>like this in your life to help you realize your deepest dreams.</h3>
         <h3>Sign up now to get started.</h3>
         <h3>You know you want to.</h3>
       </div>
+
+      <div class="card-form">
+        <form  action="signup.php" method="post">
+
+          <h4 class="title margin-form">Let's do this!</h4>
+
+          <div class="content-form">
+            <div class="content-input-group">
+              <div class="input-group">
+                <label for="first_name">FIRST NAME</label>
+                <input type="text" name="first_name" id="first_name" required>
+              </div>
+  
+              <div class="input-group">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" required>
+              </div>
+  
+              <div class="input-group">
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password" required>
+              </div>
+            </div>
+  
+            <div class="content-input-group">
+              <div class="input-group">
+                <label for="last_name">LAST NAME</label>
+                <input type="text" name="last_name" id="last_name" required>
+              </div>
+  
+              <div class="input-group">
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" name="phone" id="phone" required>
+              </div>
+  
+              <div class="input-group">
+                <label for="confirm_password">CONFIRM PASSWORD</label>
+                <input type="password" name="confirm_password" id="confirm_password" required>
+              </div>
+            </div>
+          </div>
+
+       
+          <button type="submit" class="btn margin-form">Sign Up</button>
+       
+        </form>
+      </div>
       
-      <form></form>
       <div class="submit-content"></div>
     </div>
     
