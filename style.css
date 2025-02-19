@@ -92,7 +92,7 @@ html, body {
 }
 
 label{
-	font-size: 10px;
+	font-size: 12px;
 	font-weight: bold;
 	color: #6B717B;
 }
@@ -127,10 +127,10 @@ label{
 
 input{
 	width: 200px;
-	height: 15px;
+	height: 25px;
 	border: 1px solid #F0F1F3;
 	border-radius: 5px;
-	padding: 5px;
+	padding: px;
 }
 
 input:user-valid {
