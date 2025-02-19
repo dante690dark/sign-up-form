@@ -141,3 +141,7 @@ input:user-invalid {
   background-color: rgba(255, 0, 0, 0.1);
 }
 
+input[type="tel"]::placeholder {
+	color: rgba(0, 0, 0, 0.3); 
+  font-style: italic;
+}
