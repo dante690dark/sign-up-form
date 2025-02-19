@@ -25,7 +25,13 @@ document.addEventListener("DOMContentLoaded", () => {
   confirmPassword.addEventListener("input", validatePasswords);
 
   form.addEventListener("submit",  (event) => {
-    event.preventDefault()
-    validatePasswords();
+    if (form.checkValidity()) {
+      event.preventDefault();
+      console.log("✅ Formulario válido, enviando datos...");
+    }
+    else {
+      event.preventDefault();
+      console.error("❌ Formulario inválido, evitando envío.");
+    }
   });
 });
