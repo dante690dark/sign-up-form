@@ -132,7 +132,7 @@ input{
 }
 
 input:user-valid {
-  border: 2px solid #28a745;
+  border: 2px solid green;
   background-color: rgba(40, 167, 69, 0.1);
 }
 
@@ -140,3 +140,4 @@ input:user-invalid {
   border: 2px solid red;
   background-color: rgba(255, 0, 0, 0.1);
 }
+
