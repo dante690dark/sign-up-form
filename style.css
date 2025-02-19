@@ -93,6 +93,8 @@ html, body {
 
 label{
 	font-size: 10px;
+	font-weight: bold;
+	color: #6B717B;
 }
 
 .title{
@@ -144,4 +146,28 @@ input:user-invalid {
 input[type="tel"]::placeholder {
 	color: rgba(0, 0, 0, 0.3); 
   font-style: italic;
+}
+
+.btn{
+	background-color: #596D48;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin-top: 20px;
+	cursor: pointer;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.login{
+	position: relative;
+	top: 20px;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: #596D48;
 }
