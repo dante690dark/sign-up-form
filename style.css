@@ -11,18 +11,18 @@
 }
 
 html, body {
-	background-color: #F9FAFB;
+  background-color: #F9FAFB;
   overflow-x: hidden;
 }
 
 .container {
-	display: flex;
+  display: flex;
 }
 
 .container-image {
-	height: 100vh;
-	max-width: 40%;
-	flex: 1.2;
+  height: 100vh;
+  max-width: 40%;
+  flex: 1.2;
 	background-image: url('./assets/images/halie-west-25xggax4bSA-unsplash.jpg');
 	background-size: cover;
 	background-position: center;
